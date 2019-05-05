@@ -3,7 +3,6 @@ def prime?(num)
   (2..num-1).any? {|factor| num%factor==0}
   return true 
 end 
-end 
 false 
 end 
 
